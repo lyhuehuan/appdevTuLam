@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>aspnet-WebAppBMS-1CB0DE9D-4303-445C-8A29-64EA32E35B5B</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.15" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.15" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.15" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.15" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.15">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.15" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.15" />
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="ViewModels\" />
+      <Folder Include="Views\Books\" />
+      <Folder Include="Views\Cart\" />
+      <Folder Include="Views\OrderOverViews\" />
+    </ItemGroup>
+
+</Project>
